@@ -1,0 +1,33 @@
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a button {
+    background-color: #356eaa;
+    color: white;
+    padding: 15px 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+nav a button:hover {
+    background-color: #032e7e;
+}

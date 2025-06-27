@@ -1,0 +1,71 @@
+.contenedor {
+    max-width: 800px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.boton {
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #356eaa;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 150px; /* Ancho fijo para los botones */
+}
+
+.boton:hover {
+    background-color: #264b72;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los botones */
+    margin-top: 30px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #4784c5ca;
+    color: white;
+}
