@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import "../styles/registrarCartera.css";
+import "../styles/registrarcartera.css";
 
 export default function RegistrarCartera() {
     const [descripcion, setDescripcion] = useState("");
