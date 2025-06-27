@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import "../styles/consultarCartera.css";
+import "../styles/consultarcartera.css";
 
 export default function ConsultarCartera() {
     const [tipo, setTipo] = useState("");
